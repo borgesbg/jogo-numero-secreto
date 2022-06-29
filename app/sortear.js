@@ -1,6 +1,6 @@
 const menorValor = 1;
 const maiorValor = 1000;
-let tentativas = 0;
+let tentativas = 1;
 
 const numeroSecreto = gerarNumeroAleatorio();
 
