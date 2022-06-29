@@ -67,3 +67,49 @@ h3 {
     color: var(--primary-color);
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    h2 {
+        margin-top: 10px;
+        font-size: 25px
+    }
+    h3 {
+        margin-top: 10px;
+        font-size: 20px
+    }
+    .mensagem {
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+    .mensagem .box {
+        border: 1px solid var(--primary-color);
+        display: block;
+        padding: 15px 20px;
+        margin: 25px;
+        max-width: 400px;
+        position: relative;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .btn-jogar {
+        border: 1px solid var(--primary-color);
+        background-color: var(--primary-color);
+        color: var(--bg-color);
+        padding: 10px 40px;
+        margin-top: 25px;
+        font-size: 20em;
+        border-radius: 30px;
+        transition: 0.4s ease-in-out;
+    }
+    .btn-jogar:hover {
+        border: 1px solid var(--primary-color);
+        background-color: var(--bg-color);
+        color: var(--primary-color);
+        cursor: pointer;
+    }
+}
